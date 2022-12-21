@@ -8,7 +8,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 
-#include "vec_monitor/uitls.hpp"
+#include "vec_monitor/utils.hpp"
 
 
 using std::placeholders::_1;

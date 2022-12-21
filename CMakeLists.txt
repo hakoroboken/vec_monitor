@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(robo2022_test)
+project(vec_monitor)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -24,7 +24,6 @@ find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
 add_executable(vec_monitor src/vec_monitor.cpp)
-add_executable(debug src/debug.cpp)
 
 #test tools
 target_include_directories(vec_monitor PUBLIC
