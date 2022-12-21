@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(robo2022_test)
+project(vec_monitor)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
