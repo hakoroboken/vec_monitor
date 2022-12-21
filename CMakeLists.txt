@@ -24,7 +24,6 @@ find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
 add_executable(vec_monitor src/vec_monitor.cpp)
-add_executable(debug src/debug.cpp)
 
 #test tools
 target_include_directories(vec_monitor PUBLIC
